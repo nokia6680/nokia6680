@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>MoGo Test</title>
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<title>MoGo Test</title>
   </head>
   <body>
-    <div class="container">
     <header class="main-header">
+      <div class="container">
       <nav class="main-navigation">
-        <a class="main-header__logo">MoGo</a>
+        <div class="main-header__logo"><a class="link-logo">MoGo</a></div>
         <ul class="site-navigation">
           <li>
             <a href="#">About</a>
@@ -30,18 +31,20 @@
         </ul>
         <ul class="buy-search">
           <li>
-            <a class="btn-cart" href="#"></a>
+            <a class="btn-cart" href="#"><span class="visually-hidden">Корзина</span></a>
           </li>
           <li>
-            <a class="btn-search" href="#"></a>
+            <a class="btn-search" href="#"><span class="visually-hidden">Поиск</span></a>
           </li>
         </ul>
       </nav>
       <section class="main-header__intro">
-        <b class="main-header__intro-title">Creative Template</b>
-        <h1 class="main-header__intro-header">Welcome to Mogo</h1>
-        <span class="main-header__divider divider"></span>
-        <a class="btn-information" href="#">Learn more</a>
+        <div class="title-wrapper">
+          <b class="main-header__intro-title">Creative Template</b>
+          <h1 class="main-header__intro-header">Welcome to Mogo</h1>
+          <span class="main-header__divider divider"></span>
+          <a class="btn-information" href="#">Learn more</a>
+        </div>
       </section>
       <div class="main-header__slider-wrapper">
         <ul class="main-header__slider-list">
@@ -59,15 +62,16 @@
           </li>
         </ul>
       </div>
+      </div>
     </header>
     <main>
-
+    <div class="container">
       <section class="about-us">
         <div class="block-intro">
           <b class="block-title">What we do</b>
           <h2 class="block-header">Story about us</h2>
           <span class="divider"></span>
-          <p class="block-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <p class="block-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
         </div>
         <ul class="about-us-gallery">
           <li>
@@ -81,30 +85,33 @@
           </li>
         </ul>
       </section>
-
+    </div>
+    <!--Зеленый блок с фактами-->
       <section class="facts-about-us">
+        <div class="container">
         <ul class="facts-details">
-          <li>
+          <li class="facts-list-item">
             <p class="facts-quantity">42</p>
             <p class="facts-name">Web design projects</p>
           </li>
-          <li>
+          <li class="facts-list-item">
             <p class="facts-quantity">123</p>
             <p class="facts-name">Happy client</p>
           </li>
-          <li>
+          <li class="facts-list-item">
             <p class="facts-quantity">15</p>
             <p class="facts-name">Award winner</p>
           </li>
-          <li>
+          <li class="facts-list-item">
             <p class="facts-quantity">99</p>
             <p class="facts-name">Cup of coffee</p>
           </li>
-          <li>
+          <li class="facts-list-item">
             <p class="facts-quantity">24</p>
             <p class="facts-name">Members</p>
           </li>
         </ul>
+      </div>
       </section>
 
       <section class="about-services">
@@ -168,6 +175,7 @@
           <span class="divider"></span>
           <p class="block-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
         </div>
+        <div class="activiti-img"
           <img src="img/activity.jpg" alt="Our activities" width="570" height="380">
         </div>
         <div class="activity-toggle-box">

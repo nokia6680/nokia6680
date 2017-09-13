@@ -1,0 +1,298 @@
+html,
+body {
+  width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #999999;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*Общие блоки на весь сайт*/
+
+.block-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block-title {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  line-height: normal;
+  text-transform: none;
+  color: #333333;
+}
+
+.block-header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  line-height: normal;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333333;
+}
+
+.block-description,
+.services-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #999999;
+  font-weight: normal;
+  text-transform: none;
+  text-align: center;
+}
+
+/*ПОБЛОЧНО*/
+
+.main-header {
+  background-image: url('../img/header-background.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.main-navigation {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: normal;
+  color: #ffffff;
+  font-weight: normal;
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.main-header__logo {
+  width: 140px;
+}
+
+.main-header__logo a {
+  text-transform: none;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: normal;
+}
+
+.site-navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+
+  margin-left: auto;
+  width: 550px;
+}
+
+.buy-search {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.site-navigation a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: normal;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation li {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__intro-title {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 72px;
+  line-height: normal;
+  color: #ffffff;
+  text-transform: none;
+  text-align: center;
+
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+.main-header__intro-header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150px;
+  line-height: 140px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+
+  width: 810px;
+  text-align: center;
+}
+
+.main-header__slider-wrapper ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header__slider-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-header__slider-list a {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.main-header__slider-list li {
+  width: 278px;
+  text-align: left;
+
+  margin: 0;
+  padding: 0;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.about-us-gallery {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.facts-about-us {
+  background-color: #95e1d3;
+}
+
+.facts-about-us ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fact-details li {
+  width: 240px;
+}
+
+.facts-list-item p {
+  margin: 0;
+  padding: 0;
+}
+
+.facts-quantity {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 72px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.facts-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-device {
+  background-image: url('../img/iphone-background.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+}
