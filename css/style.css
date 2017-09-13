@@ -295,4 +295,15 @@ a {
   background-image: url('../img/iphone-background.jpg');
   background-repeat: no-repeat;
   background-position: top;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.partners {
+  background-color: #f8f8f8;
 }
