@@ -277,19 +277,25 @@ a {
   text-align: center;
 }
 
+.services {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.services-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 
-
-
-
-
-
-
-
-
-
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 .about-device {
   background-image: url('../img/iphone-background.jpg');
@@ -302,8 +308,113 @@ a {
   align-items: center;
 }
 
+.activity-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.about-blockquote {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blockquote {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blockquote-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quote-author {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: normal;
+  color: #333333;
+}
+
+.client-response {
+  margin: 0;
+  padding: 0;
+}
+
+.client-response p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 36px;
+  font-style: italic;
+  color: #999999;
+  text-transform: none;
+}
+
+.team-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .partners {
   background-color: #f8f8f8;
+}
+
+/*Галерея изображений*/
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.gallery-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 960px;
+}
+
+.gallery-side:last-of-type {
+  justify-content: flex-end;
+}
+
+.gallery-item {
+  width: 480px;
+  height: 390px;
+}
+
+
+.about-response {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.response-area {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.response-item {
+  width: 600px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
