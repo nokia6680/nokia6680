@@ -1,0 +1,29 @@
+.main-navigation {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: normal;
+  color: #ffffff;
+  font-weight: normal;
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.main-navigation__logo {
+  width: 140px;
+}
+
+.main-navigation__link {
+  text-transform: none;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: normal;
+}

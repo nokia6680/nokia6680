@@ -1,0 +1,30 @@
+.navigation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+
+  margin-left: auto;
+  width: 550px;
+}
+
+.navigation-list__item {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation-list__link {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: normal;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
