@@ -1,0 +1,44 @@
+.block-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 90px;
+  margin-top: 90px;
+}
+
+.block-intro__title {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  line-height: normal;
+  text-transform: none;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.block-intro__header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  line-height: normal;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333333;
+
+  margin: 0;
+  padding: 0;
+}
+
+.block-intro__description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #999999;
+  font-weight: normal;
+  text-transform: none;
+  text-align: center;
+
+  width: 960px;
+  margin: 0;
+  padding: 0;
+}
