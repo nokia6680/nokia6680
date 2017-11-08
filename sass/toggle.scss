@@ -1,0 +1,73 @@
+.toggle {
+  width: 600px;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.toggle__item {
+  margin-bottom: 10px;
+}
+
+.toggle__item:last-of-type {
+  margin-bottom: 0;
+}
+
+.toggle__box {
+  display: none;
+}
+
+.toggle__box + label {
+  border: 1px solid silver;
+
+  display: block;
+  cursor: pointer;
+
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.toggle__label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.toggle__textbox {
+  border: 1px solid silver;
+  border-top: none;
+
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+.toggle__description {
+  font {
+    family: "Roboto", sans-serif;
+    size: 15px;
+    weight: light;
+    style: italic;
+  }
+
+  line-height: 24px;
+  color: #999999;
+  text-transform: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.toggle__box + label + .toggle__textbox {
+  display: none;
+}
+
+.toggle__box:checked + label + .toggle__textbox {
+  display: block;
+}

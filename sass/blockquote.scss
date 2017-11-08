@@ -1,0 +1,37 @@
+.blockquote {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @include container;
+}
+
+.blockquote__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 280px;
+  padding-right: 70px;
+}
+
+.blockquote__description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 36px;
+  font-style: italic;
+  color: #999999;
+  text-transform: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.blockquote__author {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: normal;
+
+  color: #333333;
+}

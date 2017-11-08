@@ -1,0 +1,17 @@
+.device {
+  background-image: url('../img/iphone-background.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.device__picture {
+  font-size: 0;
+  line-height: 0;
+
+  padding-left: 90px;
+}

@@ -151,97 +151,100 @@
       </ul>
     </section>
 <!--Блок с айпадом и айфоном-->
-    <section class="about-device">
-      <div class="block-intro">
-        <b class="block-title">For all devices</b>
-        <h2 class="block-header">Unique design</h2>
-        <span class="divider"></span>
+    <section class="main-about__device device">
+      <div class="device__block block-intro">
+        <b class="block-intro__title">For all devices</b>
+        <h2 class="block-intro__header">Unique design</h2>
+        <span class="block-intro__divider"></span>
       </div>
-      <div class="device-images">
-        <img src="img/devices.png" alt="View on iPad" width="636" height="673">
+      <div class="device__image">
+        <img class="device__picture" src="img/devices.png" alt="View on iPad" width="636" height="673">
       </div>
     </section>
 
-      <section class="about-activity container">
-        <div class="block-intro">
-          <b class="block-title">Service</b>
-          <h2 class="block-header">What we do</h2>
-          <span class="divider"></span>
-          <p class="block-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+    <section class="main-about__activity activity">
+      <div class="activity__block block-intro">
+        <b class="block-intro__title">Service</b>
+        <h2 class="block-intro__header">What we do</h2>
+        <span class="block-intro__divider"></span>
+        <p class="block-intro__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      </div>
+      <div class="activity__wrapper activity-content">
+        <div class="activity-content__image">
+          <img class="activity-content__picture" src="img/activity.jpg" alt="Our activities" width="570" height="380">
         </div>
-      <div class="activity-wrapper">
-        <div class="activity-img">
-          <img src="img/activity.jpg" alt="Our activities" width="570" height="380">
-        </div>
-        <div class="activity-toggle-box">
-          <input class="toggle-box" id="photography" type="checkbox">
-          <label for="photography">Photography</label>
-          <div class="activity-box">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <ul class="activity-content__box toggle">
+          <li class="toggle__item">
+            <input class="toggle__box visually-hidden" id="photography" type="checkbox" checked>
+            <label class="toggle__label" for="photography">Photography</label>
+            <div class="toggle__textbox">
+            <p class="toggle__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
           </div>
-          <input class="toggle-box" id="creative" type="checkbox" >
-          <label for="creative">Creativity</label>
-          <div class="activity-box">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-          </div>
-          <input class="toggle-box" id="design" type="checkbox" >
-          <label for="design">Web design</label>
-          <div class="activity-box">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-          </div>
-        </div>
+          </li>
+          <li class="toggle__item">
+            <input class="toggle__box visually-hidden" id="creative" type="checkbox" >
+            <label class="toggle__label" for="creative">Creativity</label>
+            <div class="toggle__textbox">
+              <p class="toggle__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+          </li>
+          <li class="toggle__item">
+            <input class="toggle__box visually-hidden" id="design" type="checkbox" >
+            <label class="toggle__label" for="design">Web design</label>
+            <div class="toggle__textbox">
+              <p class="toggle__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+          </li>
+        </ul>
       </div>
       </section>
 
-    <section class="about-blockquote container">
-      <button class="btn btn-prev" value="<"><</button>
-      <div class="blockquote">
-          <div class="blockquote-wrapper">
-            <blockquote class="client-response">
-             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-               sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat
-               volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper
-               suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-            </blockquote>
-            <b class="quote-author">Jon Doe</b>
-          </div>
+    <section class="main-about__blockquote blockquote">
+      <button class="blockquote__btn blockquote__btn--prev" value="<"><</button>
+      <div class="blockquote__block">
+        <p class="blockquote__description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+              sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat
+              volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper
+              suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </p>
+        <b class="blockquote__author">Jon Doe</b>
       </div>
-      <button class="btn btn-next" value=">">></button>
+      <button class="blockquote__btn blockquote__btn--next" value=">">></button>
     </section>
 
-    <section class="about-team container">
-      <div class="block-intro">
-        <b class="block-title">Who we are</b>
-        <h2 class="block-header">Meet our team</h2>
-        <span class="divider"></span>
-        <p class="block-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+    <section class="main-about__team team">
+      <div class="team__block block-intro">
+        <b class="block-intro__title">Who we are</b>
+        <h2 class="block-intro__header">Meet our team</h2>
+        <span class="block-intro__divider"></span>
+        <p class="block-intro__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </div>
-      <div class="team-gallery">
-        <article class="team-card">
-          <div class="team-photo">
-            <img src="img/team-1.jpg" alt="Photo of our team member" width="380" height="470">
+      <div class="team__photo photo-gallery">
+        <article class="photo-gallery__item item-card">
+          <div class="item-card__photo">
+            <img class="item-card__picture" src="img/team-1.jpg" alt="Photo of our team member" width="380" height="470">
           </div>
-          <div class="details team-details">
-            <h3 class="team-name">Matthew Dix</h3>
-            <b class="team-profession">Graphic designer</b>
-          </div>
-        </article>
-        <article class="team-card">
-          <div class="team-photo">
-            <img src="img/team-2.jpg" alt="Photo of our team member" width="380" height="470">
-          </div>
-          <div class="details team-details">
-            <h3 class="team-name">Cristopher Campbell</h3>
-            <b class="team-profession">Branding UI designer</b>
+          <div class="item-card__details item-details">
+            <h3 class="item-details__name">Matthew Dix</h3>
+            <b class="item-details__profession">Graphic designer</b>
           </div>
         </article>
-        <article class="team-card">
-          <div class="team-photo">
-            <img src="img/team-3.jpg" alt="Photo of our team member" width="380" height="470">
+        <article class="photo-gallery__item item-card">
+          <div class="item-card__photo">
+            <img class="item-card__picture" src="img/team-2.jpg" alt="Photo of our team member" width="380" height="470">
           </div>
-          <div class="details team-details">
-            <h3 class="team-name">Michael Fertig</h3>
-            <b class="team-profession">Developer</b>
+          <div class="item-card__details item-details">
+            <h3 class="item-details__name">Cristopher Campbell</h3>
+            <b class="item-details__profession">Branding UI designer</b>
+          </div>
+        </article>
+        <article class="photo-gallery__item item-card">
+          <div class="item-card__photo">
+            <img class="item-card__picture" src="img/team-3.jpg" alt="Photo of our team member" width="380" height="470">
+          </div>
+          <div class="item-card__details item-details">
+            <h3 class="item-details__name">Michael Fertig</h3>
+            <b class="item-details__profession">Developer</b>
           </div>
         </article>
       </div>
