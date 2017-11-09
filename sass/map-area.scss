@@ -1,0 +1,15 @@
+.map-area {
+  background: #f2f2f2 url('../img/map-background.jpg') no-repeat top;
+  height: 200px;
+}
+
+.map-area__intro {
+  @include container;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}

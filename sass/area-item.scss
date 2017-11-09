@@ -1,0 +1,16 @@
+.area-item {
+  width: 600px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-left: 44px;
+  padding-right: 35px;
+
+  box-sizing: border-box;
+}
+
+.area-item__photo {
+  margin-right: 40px;
+}

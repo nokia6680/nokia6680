@@ -1,0 +1,16 @@
+.side {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 960px;
+}
+
+.side:last-of-type {
+  justify-content: flex-end;
+}
+
+.side__item {
+  width: 480px;
+  height: 390px;
+}

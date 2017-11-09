@@ -6,12 +6,20 @@
   @include container;
 }
 
+.blockquote__image {
+  padding-left: 80px;
+}
+
 .blockquote__block {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-left: 280px;
   padding-right: 70px;
+}
+
+.blockquote__block--image {
+  padding-left: 30px;
 }
 
 .blockquote__description {
